@@ -1,0 +1,44 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <h2 class="footer-heading"><a href="/">{{ site.title }}</a> • <a href="/about">About</a></h2>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>{{ site.title }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.facebook_url %}
+          <li>
+            <a href="{{ site.facebook_url }}">
+              <span class="icon icon--instagram">{% include icon-instagram.svg %}</span>
+              <span class="username">Facebook</span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.instagram_url %}
+          <li>
+            <a href="{{ site.instagram_url }}">
+              <span class="icon icon--instagram">{% include icon-instagram.svg %}</span>
+              <span class="username">Instagram</span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.twitter_url %}
+          <li>
+            <a href="{{ site.twitter_url }}">
+              <span class="icon icon--instagram">{% include icon-instagram.svg %}</span>
+              <span class="username">Twitter</span>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+  </div>
+</footer>

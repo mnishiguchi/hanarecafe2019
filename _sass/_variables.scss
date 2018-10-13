@@ -14,5 +14,12 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$primary: #1D809F !default;
-$secondary: #ecb807 !default;
+$oyster: #E2DDCA !default;
+$wakame: #d2da35 !default;
+// $bread: #e8a675 !default;
+
+$primary: #908c80 !default;
+$secondary: $wakame !default;
+
+// $masthead_background_url: "https://fakeimg.pl/350x200/E8EC98/E8EC98/?text=sample";
+$masthead_background_url: '../assets/toushi.jpg';

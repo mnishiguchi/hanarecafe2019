@@ -1,34 +1,17 @@
 <!-- Footer -->
-<footer class="footer text-center">
+<footer class="footer text-center" id="contact">
   <div class="container">
-    <ul class="list-inline mb-5">
-      {% if site.facebook_url %}
-      <li class="list-inline-item">
-        <a class="social-link rounded-circle text-white mr-3" href="{{ site.facebook_url }}">
-          <i class="icon-social-facebook"></i>
-        </a>
-      </li>
-      {% endif %}
-      {% if site.twitter_url %}
-      <li class="list-inline-item">
-        <a class="social-link rounded-circle text-white mr-3" href="{{ site.twitter_url }}">
-          <i class="icon-social-twitter"></i>
-        </a>
-      </li>
-      {% endif %}
-      {% if site.instagram_url %}
-      <li class="list-inline-item">
-        <a class="social-link rounded-circle text-white" href="{{ site.instagram_url }}">
-          <i class="icon-social-instagram"></i>
-        </a>
-      </li>
-      {% endif %}
-    </ul>
+
+    {% include social_buttons.html %}
+
     <p class="text-muted small mb-0">
-      <div><a href="/">&copy; {{ site.title }} 2018</a></div>
-      <div><a href="mailto:{{ site.email }}">{{ site.author.email }}</a></div>
+      <a href="#page-top">&copy; {{ site.title }} 2018</a>
+      {% if site.email %}
+        &middot;
+        <div><a href="mailto:{{ site.email }}">{{ site.author.email }}</a></div>
+      {% endif %}
+      &middot;
+      <a href="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/">template</a>
     </p>
-    <p>{{ site.description }}</p>
-    <p>subscribe <a href="{{ site.rss_feed }}">via RSS</a></p>
   </div>
 </footer>

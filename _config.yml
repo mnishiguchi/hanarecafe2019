@@ -1,6 +1,6 @@
 title: 島のパン家 〜hanare〜
-tagline: 鳥羽市桃取町で焼きたてパンが味わえるベーカリーカフェ
-description: 鳥羽市桃取町で焼きたてパンが味わえるベーカリーカフェ
+tagline: 離れ島 鳥羽市桃取島で焼きたてパンが味わえるベーカリーカフェ
+description: 離れ島 鳥羽市桃取島で焼きたてパンが味わえるベーカリーカフェ
 
 author:
   name: "Masatoshi Nishiguchi" # TODO
@@ -13,6 +13,7 @@ url: "https://mnishiguchi.com"  # TODO: hostname & protocol for this site
 theme_color: "#943526" # TODO
 favicon: "assets/favicon.ico"
 thumbnail: "assets/thumbnail.jpg"
+rss_feed: "feed.xml"
 instagram_url: "https://www.instagram.com/explore/locations/1104298032977143/hanare/"
 facebook_url: "https://www.facebook.com/%E5%B3%B6%E3%81%AE%E3%83%91%E3%83%B3%E5%AE%B6-hanare-1104298032977143/"
 twitter_url: "https://twitter.com/search?q=%23%E7%AD%94%E5%BF%97%E5%B3%B6%20%23%E6%A1%83%E5%8F%96%20%23%E3%83%91%E3%83%B3%E5%B1%8B&src=typd"

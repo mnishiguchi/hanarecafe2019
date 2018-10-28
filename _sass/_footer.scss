@@ -14,5 +14,11 @@ footer.footer {
       background-color: darken($primary, 10%);
       text-decoration: none;
     }
+    &.facebook {
+      background-color: $facebook;
+    }
+    &.instagram {
+      background-color: $instagram;
+    }
   }
 }

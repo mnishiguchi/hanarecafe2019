@@ -1,23 +1,21 @@
-title: 島のパン家 〜hanare〜
-tagline: 三重県鳥羽市の離れ島　答志島で焼きたてパンが味わえるベーカリーカフェ
-description: 三重県鳥羽市の離れ島　答志島で焼きたてパンが味わえるベーカリーカフェ
+title:         島のパン家 〜hanare〜
+description:   鳥羽から定期船で20分の絶景観光スポット、答志島の地元食材を使用した焼きたて創作パンのお店
 
 author:
-  name: "Hanare"
-  url: "https://hanarecafe.com"
-  address: "三重県鳥羽市桃取町259番地"
-  phone: "0599-20-0099"
+  name:        "島のパン家 〜hanare〜"
+  url:         "https://hanarecafe.com"
+  address:     "三重県鳥羽市桃取町259番地"
+  phone:       "0599-20-0099"
 
-permalink: pretty
-url: "http://hanarecafe.surge.sh"  # hostname & protocol for this site
-theme_color: "#E8EC98"
-favicon: "assets/favicon.ico"
-thumbnail: "assets/thumbnail.jpg"
-rss_feed: "feed.xml"
+permalink:     pretty
+url:           "http://hanarecafe.surge.sh"  # hostname & protocol for this site
+theme_color:   "#e8a675"
+favicon:       "assets/favicon.ico"
+thumbnail:     "assets/thumbnail.jpg"
+rss_feed:      "feed.xml"
 instagram_url: "https://www.instagram.com/explore/locations/1104298032977143/hanare/"
-facebook_url: "https://www.facebook.com/%E5%B3%B6%E3%81%AE%E3%83%91%E3%83%B3%E5%AE%B6-hanare-1104298032977143/"
-twitter_url: "https://twitter.com/search?q=%23%E7%AD%94%E5%BF%97%E5%B3%B6%20%23%E6%A1%83%E5%8F%96%20%23%E3%83%91%E3%83%B3%E5%B1%8B&src=typd"
+facebook_url:  "https://www.facebook.com/%E5%B3%B6%E3%81%AE%E3%83%91%E3%83%B3%E5%AE%B6-hanare-1104298032977143/"
 
 sass:
-  sass_dir: _sass  # the directory that contains sass partials
-  style: :compressed
+  sass_dir:    _sass  # the directory that contains sass partials
+  style:       :compressed

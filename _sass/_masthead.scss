@@ -1,3 +1,6 @@
+// $masthead_background_url: "https://fakeimg.pl/350x200/E8EC98/E8EC98/?text=sample";
+$masthead_background_url: "../assets/toushi_joint_pics.jpg";
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -16,14 +19,24 @@
   background-repeat: no-repeat;
   background-size: cover;
   h1 {
-    font-size: 4rem;
+    // font-size: 4rem;
     margin: 0;
     padding: 0;
   }
+  .logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+  }
   @media (min-width: 992px) {
     height: 100vh;
-    h1 {
-      font-size: 5.5rem;
+    // h1 {
+    //   font-size: 5.5rem;
+    // }
+    .logo {
+      width: 300px;
+      height: 300px;
     }
   }
 }

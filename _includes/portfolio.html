@@ -1,0 +1,32 @@
+<!-- portfolio -->
+<section class="content-section" id="portfolio">
+  <div class="container">
+    <div class="content-section-heading text-center">
+      <h3 class="text-secondary mb-0">Portfolio</h3>
+      <h2 class="mb-5">商品の紹介</h2>
+    </div>
+    <div class="row no-gutters">
+      {% for item in site.data.portfolio %}
+        <div class="col-lg-6" style="background:#262626">
+          <a class="portfolio-item" href="{{ site.instagram_url }}">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>
+                  {{ item.title }}
+                </h2>
+                <p class="mb-0">
+                  {{ item.description }}
+                </p>
+              </span>
+            </span>
+            <img
+              class="img-fluid"
+              src="{{ site.url }}/assets/{{ item.img_file }}"
+              alt="{{ item.img_alt }}"
+            >
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

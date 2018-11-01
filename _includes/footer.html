@@ -1,6 +1,18 @@
 <!-- footer -->
 <footer class="footer text-center" id="contact">
   <div class="container">
+    <div itemscope itemtype="http://schema.org/LocalBusiness" style="margin-bottom:1rem">
+      <div itemprop="name">{{ site.title }}</div>
+      <span itemprop="telephone" class="h4">
+        <i class="icon-phone"></i>
+        <a href="tel:{{ site.author.phone }}" class="h2">
+          <strong>
+            {{ site.author.phone }}
+          </strong>
+        </a>
+      </span>
+    </div>
+
     {% include social_buttons.html %}
 
     <p class="text-muted small mb-0">

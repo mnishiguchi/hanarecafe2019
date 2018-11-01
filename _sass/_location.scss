@@ -35,12 +35,12 @@ $border-color: $primary;
     background: white;
   }
 
-  &:last-child {
-    border-image: linear-gradient(
-        to bottom,
-        $border-color 60%,
-        rgba($border-color, 0)
-      )
-      1 100%;
-  }
+  // &:last-child {
+  //   border-image: linear-gradient(
+  //       to bottom,
+  //       $border-color 60%,
+  //       rgba($border-color, 0)
+  //     )
+  //     1 100%;
+  // }
 }

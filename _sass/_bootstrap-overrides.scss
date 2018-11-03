@@ -52,3 +52,9 @@ a {
 .text-secondary {
   color: $secondary !important;
 }
+
+.alert,
+.card-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}

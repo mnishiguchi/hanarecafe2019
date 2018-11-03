@@ -1,18 +1,22 @@
 <!-- biography -->
-<section class="content-section bg-light" id="biography">
+<section class="biography content-section bg-light" id="biography">
   <div class="container text-center">
     <div class="content-section-heading">
       <h3 class="text-secondary mb-0">Biography</h3>
-      <h2 class="mb-5">オーナーの紹介</h2>
+      <h2 class="mb-5">店員の紹介</h2>
     </div>
 
     <a href="https://mainichi.jp/articles/20160726/ddl/k24/040/019000c">
-      <img src="{{ site.url }}/assets/hanare_owners.jpg" alt="hanare owners" style="margin-bottom:2rem">
+      <img
+        class="hanare_owners_img"
+        src="{{ '/assets/hanare_owners.jpg' | prepend: site.url }}"
+        alt="hanare owners"
+      >
     </a>
 
     <div class="row" style="margin-bottom:2rem">
       <div class="col-sm-6">
-        <div class="card my-1" style="height: 12rem;">
+        <div class="card my-1"">
           <div class="card-body">
             <h4 class="h5 card-title">徳本篤司</h4>
             <p class="card-text">
@@ -22,7 +26,7 @@
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="card my-1" style="height: 12rem;">
+        <div class="card my-1"">
           <div class="card-body">
             <h4 class="h5 card-title">徳本江里</h4>
             <p class="card-text">
@@ -34,18 +38,16 @@
     </div>
 
     <div class="alert alert-info text-left" role="alert">
-      <ul>
-        <li>
-          <a target="_blank" href="http://www.nijinet.or.jp/publishing/shima/bn/tabid/219/Default.aspx">
-            徳本篤司（2018）「妻の故郷、漁業の島でパン屋を経営（三重県答志島）」、
-            『季刊 しま』254号、公益財団法人 日本離島センター
-          </a>
-          <a class="btn btn-info btn-sm" href="http://www.nijinet.or.jp/Portals/0/pdf/publishing/shima/254/shima_254_02.pdf">
-            <i class="fas fa-file-pdf"></i>
-            Download
-          </a>
-        </li>
-      </ul>
+      <p class="card-text">
+        <a href="http://www.nijinet.or.jp/publishing/shima/bn/tabid/219/Default.aspx">
+          徳本篤司（2018）「妻の故郷、漁業の島でパン屋を経営（三重県答志島）」、
+          『季刊 しま』254号、公益財団法人 日本離島センター
+        </a>
+        <a class="btn btn-secondary btn-sm" href="http://www.nijinet.or.jp/Portals/0/pdf/publishing/shima/254/shima_254_02.pdf">
+          <i class="fas fa-file-pdf"></i>
+          Download
+        </a>
+      </p>
     </div>
   </div>
 </section>

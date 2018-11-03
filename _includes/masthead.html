@@ -4,7 +4,7 @@
     <a class="js-scroll-trigger" href="#about">
       <img
         class="logo"
-        src="{{ site.url }}/{{ site.thumbnail }}"
+        src="{{ site.thumbnail_path | prepend: site.url }}"
         alt="{{ site.title }}"
       >
     </a>

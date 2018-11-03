@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="{{ site.theme_color }}">
 
-  {% if page.thumbnail %}
-    <meta property="og:image" content="{{ site.url }}/{{ page.thumbnail }}">
+  {% if page.thumbnail_path %}
+    <meta property="og:image" content="{{ page.thumbnail_path | prepend: site.url }}">
   {% else %}
-    <meta property="og:image" content="{{ site.url }}/{{ site.thumbnail }}">
+    <meta property="og:image" content="{{ site.thumbnail_path | prepend: site.url }}">
   {% endif %}
 
   {% if page.title %}
@@ -16,8 +16,8 @@
     <meta property="og:title" content="{{ site.title }}">
   {% endif %}
 
-  <link rel="shortcut icon" href="{{ site.url }}/{{ site.favicon }}" type="image/x-icon">
-  <link rel="icon" href="{{ site.url }}/{{ site.favicon }}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ site.favicon_path | prepend: site.url }}" type="image/x-icon">
+  <link rel="icon" href="{{ site.favicon_path | prepend: site.url }}" type="image/x-icon">
 
   <title>
     {% if page.title %}
@@ -41,7 +41,7 @@
   <link rel="stylesheet" href="/css/main.css">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.rss_feed_path | prepend: site.url }}">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128584998-1"></script>

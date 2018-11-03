@@ -1,20 +1,3 @@
-$foodtruck_background_url: '../assets/hanare_foodtruck_1.jpg';
-
 .foodtruck {
-  padding: 15rem 0;
-  background: linear-gradient(
-      90deg,
-      fade-out($white, 0.9) 0%,
-      fade-out($white, 0.9) 100%
-    ),
-    url($foodtruck_background_url);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  h2 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    display: block;
-    max-width: 30rem;
-  }
+  @include background-image('../assets/hanare_foodtruck.jpg');
 }

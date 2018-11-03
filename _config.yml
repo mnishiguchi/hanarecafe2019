@@ -8,7 +8,7 @@ author:
   phone:       "0599-20-0099"
 
 permalink:     pretty
-url:           "http://hanarecafe.surge.sh"  # hostname & protocol for this site
+url:           "https://hanarecafe.com"  # hostname & protocol for this site
 theme_color:   "#e8a675"
 favicon:       "assets/favicon.ico"
 thumbnail:     "assets/thumbnail.jpg"

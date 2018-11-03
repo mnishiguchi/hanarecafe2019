@@ -1,21 +1,3 @@
-$signpost_background_url: '../assets/hanare_signpost.jpg';
-// $signpost_background_url: '../assets/hanare_signpost_direction.jpg';
-
 .signpost {
-  padding: 15rem 0;
-  background: linear-gradient(
-      90deg,
-      fade-out($white, 0.9) 0%,
-      fade-out($white, 0.9) 100%
-    ),
-    url($signpost_background_url);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  h2 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    display: block;
-    max-width: 30rem;
-  }
+  @include background-image('../assets/hanare_sign.jpg');
 }

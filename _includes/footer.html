@@ -1,13 +1,15 @@
+{% assign i18n = site.data.i18n %}
+
 <!-- footer -->
 <footer class="footer text-center" id="contact">
   <div class="container">
     <div itemscope itemtype="http://schema.org/LocalBusiness" style="margin-bottom:1rem">
-      <div itemprop="name">{{ site.title }}</div>
+      <div itemprop="name">{{ i18n.author.name }}</div>
       <span itemprop="telephone" class="h4">
         <i class="icon-phone"></i>
-        <a href="tel:{{ site.author.phone }}" class="h2">
+        <a href="tel:{{ i18n.author.phone }}" class="h2">
           <strong>
-            {{ site.author.phone }}
+            {{ i18n.author.phone }}
           </strong>
         </a>
       </span>
@@ -16,11 +18,9 @@
     {% include social_buttons.html %}
 
     <p class="text-muted small mb-0">
-      <a class="js-scroll-trigger" href="#page-top">&copy; {{ site.title }} 2018</a>
-      {% if site.email %}
-        &middot;
-        <div><a href="mailto:{{ site.email }}">{{ site.author.email }}</a></div>
-      {% endif %}
+      <a class="js-scroll-trigger" href="#page-top">
+        &copy; {{ i18n.title }} {{ site.time | date: '%Y' }}. All rights reserved.
+      </a>
     </p>
   </div>
 </footer>

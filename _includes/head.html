@@ -1,3 +1,5 @@
+{% assign i18n = site.data.i18n %}
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,45 +13,39 @@
   {% endif %}
 
   {% if page.title %}
-    <meta property="og:title" content="{{ site.title }} • {{ page.title }}">
+    <meta property="og:title" content="{{ i18n.title }} • {{ page.title }}">
   {% else %}
-    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:title" content="{{ i18n.title }}">
   {% endif %}
 
   <link rel="shortcut icon" href="{{ site.favicon_path | prepend: site.url }}" type="image/x-icon">
   <link rel="icon" href="{{ site.favicon_path | prepend: site.url }}" type="image/x-icon">
 
+  {% I18n_Headers %}
+
   <title>
     {% if page.title %}
-      {{ page.title | escape }} | {{ site.title | escape }}
+      {{ page.title | escape }} | {{ i18n.title | escape }}
     {% else %}
-      {{ site.title | escape }}
+      {{ i18n.title | escape }}
     {% endif %}
   </title>
 
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ i18n.description }}{% endif %}">
 
   <!-- bootstrap core css -->
-  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" type="text/css">
 
   <!-- custom fonts -->
-  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/vendor/fontawesome-free/css/all.min.css" type="text/css">
+  <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" type="text/css">
 
   <!-- custom css -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.rss_feed_path | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ i18n.title }}" href="{{ site.rss_feed_path | prepend: site.url }}">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128584998-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-128584998-1');
-  </script>
+  {% include google_analytics.html %}
 </head>

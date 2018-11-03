@@ -1,9 +1,10 @@
+{% assign i18n = site.data.i18n %}
+
 <!-- location -->
 <section class="content-section bg-light" id="location">
   <div class="container text-center">
     <div class="content-section-heading">
-      <h3 class="text-secondary mb-0">Location</h3>
-      <h2 class="mb-5">交通のご案内</h2>
+      <h2 class="mb-5">{{ i18n.section_name.location }}</h2>
     </div>
 
     <div class="row">
@@ -11,18 +12,18 @@
         <div class="row text-left">
           <div class="col-md-6">
             <div class="container">
-              <div class="timeline-item" location-name="近鉄 鳥羽駅">
-                <p class="text-muted">徒歩約10分</p>
+              <div class="timeline-item" location-name="{{ i18n.location.kintetsu_toba }}">
+                <p class="text-muted">{{ i18n.location.walk_10min }}</p>
               </div>
-              <div class="timeline-item" location-name="鳥羽市営定期船 佐田浜（鳥羽マリンターミナル）">
-                <p class="text-muted">定期船で約15分</p>
+              <div class="timeline-item" location-name="{{ i18n.location.ferry_toba_marine_terminal }}">
+                <p class="text-muted">{{ i18n.location.ferry_15min }}</p>
               </div>
-              <div class="timeline-item" location-name="鳥羽市営定期船 桃取">
-                <p class="text-muted">徒歩約3分</p>
+              <div class="timeline-item" location-name="{{ i18n.location.ferry_momotori_station }}">
+                <p class="text-muted">{{ i18n.location.walk_3min }}</p>
               </div>
-              <div class="timeline-item" location-name="{{ site.title }}">
+              <div class="timeline-item" location-name="{{ i18n.title }}">
                 <p class="text-muted">
-                  <a class="js-scroll-trigger" href="#map">{{ site.author.address }}</a>
+                  <a class="js-scroll-trigger" href="#map">{{ i18n.author.address }}</a>
                 </p>
               </div>
             </div>
@@ -32,22 +33,22 @@
               <ul>
                 <li>
                   <a href="https://www.kintetsu.co.jp/station/station_info/station19009.html">
-                    近鉄鳥羽駅（電車でお越しの場合）
+                    {{ i18n.location.kintetsu_toba }}
                   </a>
                 </li>
                 <li>
                   <a href="https://www.city.toba.mie.jp/kikaku/kousya/tyuusya/tyuusya.html">
-                    佐田浜駐車場（車でお越しの場合）
+                    {{ i18n.location.satahama_parking }}
                   </a>
                 </li>
                 <li>
                   <a href="https://www.city.toba.mie.jp/teikisen-kanri/page/access.html">
-                    鳥羽市営定期船　のりば
+                    {{ i18n.location.ferry_stations }}
                   </a>
                 </li>
                 <li>
                   <a href="https://www.city.toba.mie.jp/teikisen-kanri/page/documents/jikoku1.jpg">
-                    鳥羽市営定期船　時刻表
+                    {{ i18n.location.ferry_timetable }}
                   </a>
                 </li>
               </ul>
@@ -61,7 +62,7 @@
       <div class="col-lg-10 mx-auto" style="overflow-x:auto">
         <img
           src="/assets/hanare_magazine.jpg"
-          alt="{{ site.title }} 雑誌記事"
+          alt="{{ i18n.title }} 雑誌記事"
         >
       </div>
     </div>

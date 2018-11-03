@@ -1,0 +1,110 @@
+title: 島のパン家 〜ハナレ〜
+description: "鳥羽から定期船で20分の絶景観光スポット答志島の地元食材を使用した焼きたて創作パンのお店"
+author:
+  name: 島のパン家 〜ハナレ〜
+  address: "三重県鳥羽市桃取町259"
+  phone: "0599-20-0099"
+section_name:
+  home: ホーム
+  services: 営業内容
+  portfolio: 商品の紹介
+  biography: 店員の紹介
+  contact: お問合せ
+  location: 交通の案内
+about:
+  lead_paragraph: 鳥羽から定期船で20分<br>絶景観光スポット<br>答志島<br>地元食材を使用した<br>焼きたて創作パンのお店
+services:
+  list:
+    - title: パン製造販売
+      fa_icon: "hockey-puck"
+      description: |
+        水産業の盛んな答志島には、さまざまな海産物が溢れており、それをパンにも使用しています。
+        島外から来られた方にも印象に残るメニューを工夫しています。
+    - title: 店内カフェ
+      fa_icon: "coffee"
+      description: |
+        小さな店舗ですが八席のカフェスペースを設け、パンを店内でも食べることができるようにしました。
+        コーヒーやソフトアイスなど喫茶メニューも揃えています。
+    - title: パン移動販売
+      fa_icon: "truck"
+      description: |
+        島の反対側の答志地区まで車でのパン移動販売をしています。
+        また、市営定期船にパンを積み込み、各島（坂手島・菅島・神島）へパンを配達しています。
+    - title: スペシャルオーダーサービス
+      fa_icon: "plus"
+      description: |
+        お弁当、お料理、誕生日ケーキならぬバースディタルト等のスペシャルオーダーを承り可能です。
+portfolio:
+  flour_we_use_text: 三重県産小麦100%の強力粉『ニシノカオリ』を使用しています。
+  list:
+    - title: "めかぶ食パン"
+      description: "桃取産めかぶの粉末が入っています。めかぶ特有の粘りが食パンをもっちりに。"
+      img_file: "menu_mekabu_loaf.jpg"
+    - title: "わかめ塩パン"
+      description: "桃取産わかめを使ったHaNaReのオリジナル塩パンです。"
+      img_file: "menu_wakame_shio.jpg"
+    - title: "シュガーバター"
+      description: "桃取産のあおさが入っています。"
+      img_file: "menu_sugar_butter.jpg"
+    - title: "牡蠣グラタン"
+      description: "桃取産牡蠣入りです。"
+      img_file: "menu_oyster_gratin.jpg"
+    - title: "定番"
+      description: "あんぱんやクリームパン等の定番も取り揃えています。"
+      img_file: "hanare_foodtruck_shelf.jpg"
+    - title: "創作調理パン"
+      description: "オリジナル調理パンを日々研究しています。"
+      img_file: "menu_pastry_assortment.jpg"
+    - title: "デニッシュ"
+      description: "新鮮なフルーツをふんだんに使用してます。"
+      img_file: "menu_danishes.jpg"
+    - title: "お弁当（要予約）"
+      description: "イベント等にお弁当もご好評いただいています。"
+      img_file: "special_bento.jpg"
+    - title: "バースデータルト（要予約）"
+      description: "お誕生日会、記念日等に。"
+      img_file: "special_bday_tart.jpg"
+    - title: "お料理（要予約）"
+      description: "当店オーナーシェフが準備、調理可能な範囲でご要望にお答えいたします。"
+      img_file: "special_katsuo.jpg"
+biography:
+  atsushi:
+    name: 徳本篤司
+    description: |
+      三重県桑名市出身。調理製菓専門学校を卒業後、地元のホテルに就職。和食の料理人として17年の勤務。
+  eri:
+    name: 徳本江里
+    description: |
+      答志島出身。実家がワカメや牡蠣養殖を営む。三重県桑名市のホテルに勤務して夫の篤司と出会う。
+  info: |
+    <p class="card-text">
+      <a href="http://www.nijinet.or.jp/publishing/shima/bn/tabid/219/Default.aspx">
+        徳本篤司（2018）「妻の故郷、漁業の島でパン屋を経営（三重県答志島）」、『季刊 しま』254号、公益財団法人 日本離島センター
+      </a>
+      <a class="btn btn-secondary btn-sm" href="http://www.nijinet.or.jp/Portals/0/pdf/publishing/shima/254/shima_254_02.pdf">
+        <i class="fas fa-file-pdf"></i>
+        Download
+      </a>
+    </p>
+contact:
+  business_hours: |
+    <p>
+      <strong>営業時間</strong>
+      <br>
+      9:00～18:00 (完売終了)
+    </p>
+    <p>
+      <strong>定休日</strong>
+      <br>
+      木曜日、金曜日
+    </p>
+location:
+  kintetsu_toba: 近鉄 鳥羽駅
+  ferry_toba_marine_terminal: 鳥羽市営定期船 佐田浜（鳥羽マリンターミナル）
+  ferry_momotori_station: 鳥羽市営定期船 桃取
+  walk_10min: 徒歩約10分
+  ferry_15min: 定期船で約15分
+  walk_3min: 徒歩約3分
+  satahama_parking: 佐田浜駐車場
+  ferry_stations: 鳥羽市営定期船　のりば
+  ferry_timetable: 鳥羽市営定期船　時刻表

@@ -1,24 +1,22 @@
-title:          島のパン家 〜HaNaRe〜
-description:    鳥羽から定期船で20分の絶景観光スポット、答志島の地元食材を使用した焼きたて創作パンのお店
-theme_color:    #e8a675
-
-author:
-  name:         島のパン家 〜HaNaRe〜
-  url:          https://hanarecafe.com
-  address:      三重県鳥羽市桃取町259番地
-  phone:        0599-20-0099
-
-permalink:      pretty
-url:            https://hanarecafe.com   # hostname & protocol for this site
-favicon_path:   /assets/favicon.ico
-thumbnail_path: /assets/thumbnail.jpg
-rss_feed_path:  /atom.xml
-instagram_url:  https://www.instagram.com/explore/locations/1104298032977143/hanare/
-facebook_url:   https://www.facebook.com/%E5%B3%B6%E3%81%AE%E3%83%91%E3%83%B3%E5%AE%B6-hanare-1104298032977143/
+theme_color:    "#e8a675"
+permalink:      "pretty"
+url:            "https://hanarecafe.com" # hostname & protocol for this site
+favicon_path:   "/assets/favicon.ico"
+thumbnail_path: "/assets/thumbnail.jpg"
+rss_feed_path:  "/atom.xml"
+instagram_url:  "https://www.instagram.com/explore/locations/1104298032977143/hanare/"
+facebook_url:   "https://www.facebook.com/%E5%B3%B6%E3%81%AE%E3%83%91%E3%83%B3%E5%AE%B6-hanare-1104298032977143/"
 
 sass:
-  sass_dir:     _sass  # the directory that contains sass partials
+  sass_dir:     _sass # the directory that contains sass partials
   style:        :compressed
 
 plugins:
+  - jekyll-polyglot
   - jekyll-sitemap
+
+# jekyll-polyglot
+languages: ["ja", "en"]
+default_lang: "ja"
+exclude_from_localization: ["assets", "css", "vendor"]
+parallel_localization: true

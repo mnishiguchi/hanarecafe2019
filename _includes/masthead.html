@@ -1,3 +1,5 @@
+{% assign i18n = site.data.i18n %}
+
 <!-- masthead -->
 <header class="masthead d-flex">
   <div class="container text-center my-auto">
@@ -5,7 +7,7 @@
       <img
         class="logo"
         src="{{ site.thumbnail_path | prepend: site.url }}"
-        alt="{{ site.title }}"
+        alt="{{ i18n.title }}"
       >
     </a>
   </div>

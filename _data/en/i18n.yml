@@ -1,0 +1,122 @@
+title: Hanare Cafe in Toshi-jima
+description: |
+  A bakery located in a beautiful sightseeing spot, Toshi-jima, just 20-minutes away from Toba by ferry.
+  We bake unique pastries using local fresh ingredients, such as oysters and nori seaweed.
+author:
+  name: Hanare Cafe in Toshi-jima
+  address: "259 Momotorichō, Toba-shi, Mie-ken, Japan"
+  phone: "+81599200099"
+section_name:
+  home: Home
+  services: What We Offer
+  portfolio: Our Products
+  biography: Biography
+  contact: Contact
+  location: Directions
+about:
+  lead_paragraph: |
+    A bakery located in a beautiful sightseeing spot, Toshi-jima, just 20-minutes away from Toba by ferry.
+    We bake unique pastries using local fresh ingredients as well as good old classics.
+services:
+  list:
+    - title: Pastries
+      fa_icon: "hockey-puck"
+      description: |
+        We bake unique pastries taking advantage of 17-years of owner's experience as a professional chef and
+        all the fresh ingredients locally available.
+    - title: Cafeteria
+      fa_icon: "coffee"
+      description: |
+        We have a little cafe space of eight seats where you can eat our bread inside the store.
+        Coffee, tea, ice cream etc are available for your convenience.
+    - title: Foodtruck
+      fa_icon: "truck"
+      description: |
+        We drive a foodtruck to provide our bread on the other side of the island every now and then.
+        In addition, we ship bread on municipal liner to other islands in the region (Sakashima, Sugashima, Kamijima).
+    - title: Special Order Service
+      fa_icon: "plus"
+      description: |
+        By appointment, we can accept special orders for bento lunch boxes, big fruits tarts, sushi or anything we can prepare.
+portfolio:
+  flour_we_use_text: We use "Nishi no kaori"(ニシノカオリ) wheat flour produced in Mie Prefecture.
+  list:
+    - title: Mekabu Loaf
+      description: Nutritious mekabu powder is blended in the dough, which gives the loaf unique texture and flavor.
+      img_file: "menu_mekabu_loaf.jpg"
+    - title: Wakame Shio Roll
+      description: Contains locally-produced wakame
+      img_file: "menu_wakame_shio.jpg"
+    - title: Sugar Butter Roll
+      description: Contains locally-produced aosa
+      img_file: "menu_sugar_butter.jpg"
+    - title: Oyster Gratin
+      description: Contains locally-produced oysters
+      img_file: "menu_oyster_gratin.jpg"
+    - title: Classics
+      description: Red bean pastries(あんぱん) and cream pastries(クリームパン) are always polular in Japan
+      img_file: "hanare_foodtruck_shelf.jpg"
+    - title: Cooked Pastries
+      description: We are always ambitous about creating new unique products
+      img_file: "menu_pastry_assortment.jpg"
+    - title: Danish Pastries
+      description: We use plenty of fresh fruits
+      img_file: "menu_danishes.jpg"
+    - title: Bento（By Reservation)
+      description: Perfect for local events
+      img_file: "special_bento.jpg"
+    - title: Big Fruit Tart（By Reservation)
+      description: Perfect for birthday party, anniversary etc
+      img_file: "special_bday_tart.jpg"
+    - title: "Cooking（By Reservation)"
+      description: We can cook anything for you.
+      img_file: "special_katsuo.jpg"
+biography:
+  atsushi:
+    name: Atsushi Tokumoto (徳本篤司)
+    description: |
+      From Kuwana, Mie. Studied at a cooking and confectionery school.
+      Worked for a hotel as a cook of Japanese cuisine for 17 years.
+  eri:
+    name: Eri Tokumoto (徳本江里)
+    description: |
+      From Toshijima. Her family runs wakeme farming and oyster farming.
+      Met Atrsushi when she was working for a hotel in Kuwana.
+  info: |
+    <p class="card-text">
+      <a href="http://www.nijinet.or.jp/publishing/shima/bn/tabid/219/Default.aspx">
+        徳本篤司（2018）「妻の故郷、漁業の島でパン屋を経営（三重県答志島）」、『季刊 しま』254号、公益財団法人 日本離島センター
+      </a>
+      <a class="btn btn-secondary btn-sm" href="http://www.nijinet.or.jp/Portals/0/pdf/publishing/shima/254/shima_254_02.pdf">
+        <i class="fas fa-file-pdf"></i>
+        Download
+      </a>
+    </p>
+contact:
+  business_hours: |
+    <p>
+      <strong>Busines Hours</strong>
+      <br>
+      9:00 - 18:00 *
+      <br>
+      * If all pastries sell out before close of business, store may close early.
+    </p>
+    <p>
+      <strong>Closed on</strong>
+      <br>
+      Thursdays and Fridays
+    </p>
+  info: |
+    <p class="card-text">
+      Sorry, we do not speak English. That would be great if you can find a Japanese speaker before calling us.
+    </p>
+location:
+  kintetsu_toba: Kintetsu Railway - Toba Station
+  ferry_toba_marine_terminal: Toba Marine Terminal
+  ferry_momotori_station: Toba Municipal Liner Ship - Momotori Station
+  walk_10min: 10 minutes walk
+  ferry_15min: 15 minutes by ferry
+  walk_3min: 3 minutes walk
+  satahama_parking: Parking near Toba Marine Terminal
+  ferry_stations: Toba Municipal Liner Ship - Stations
+  ferry_timetable: Toba Municipal Liner Ship - Timetable

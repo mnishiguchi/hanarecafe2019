@@ -1,21 +1,23 @@
+{% assign i18n = site.data.i18n %}
+
 <!-- services -->
 <section class="content-section bg-primary text-white text-center" id="services">
   <div class="container">
     <div class="content-section-heading">
       <h3 class="text-secondary mb-0">Services</h3>
-      <h2 class="mb-5">営業内容</h2>
+      <h2 class="mb-5">{{ i18n.section_name.services }}</h2>
     </div>
     <div class="row">
-      {% for item in site.data.services %}
+      {% for service in i18n.services.list %}
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fas fa-{{ item.fa_icon }}"></i>
+            <i class="fas fa-{{ service.fa_icon }}"></i>
           </span>
           <h4>
-            <strong>{{ item.title }}</strong>
+            <strong>{{ service.title }}</strong>
           </h4>
           <p class="text-faded mb-0">
-            {{ item.description }}
+            {{ service.description }}
           </p>
         </div>
       {% endfor %}

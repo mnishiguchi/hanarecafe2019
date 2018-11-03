@@ -1,3 +1,5 @@
+{% assign i18n = site.data.i18n %}
+
 <!-- sidebar -->
 <a class="menu-toggle" href="#">
   <i class="fas fa-bars"></i>
@@ -5,28 +7,55 @@
 <nav id="sidebar-wrapper">
   <ul class="sidebar-nav">
     <li class="sidebar-brand">
-      <a class="js-scroll-trigger" href="/">{{ site.title }}</a>
+      <a class="js-scroll-trigger" href="/">{{ i18n.title }}</a>
+    </li>
+
+    <li class="sidebar-nav-item">
+      <a class="js-scroll-trigger" href="#page-top">{{ i18n.section_name.home }}</a>
     </li>
     <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger" href="#page-top">ホーム</a>
+      <a class="js-scroll-trigger" href="#services">{{ i18n.section_name.services }}</a>
     </li>
     <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger" href="#services">営業内容</a>
+      <a class="js-scroll-trigger" href="#portfolio">{{ i18n.section_name.portfolio }}</a>
     </li>
     <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger" href="#portfolio">商品の紹介</a>
+      <a class="js-scroll-trigger" href="#biography">{{ i18n.section_name.biography }}</a>
     </li>
     <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger" href="#biography">店員の紹介</a>
+      <a class="js-scroll-trigger" href="#contact">{{ i18n.section_name.contact }}</a>
     </li>
     <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger" href="#contact">お問合せ</a>
+      <a class="js-scroll-trigger" href="#location">{{ i18n.section_name.location }}</a>
     </li>
-    <li class="sidebar-nav-item">
-      <a class="js-scroll-trigger" href="#location">交通のご案内</a>
-    </li>
-    <li class="sidebar-nav-item">
-      {% include social_buttons.html %}
+
+    <li class="sidebar-extra">
+      <p>
+        <a class="btn btn-primary" href="{{ site.facebook_url }}">
+          <i class="icon-social-facebook"></i>
+        </a>
+        <a class="btn btn-primary" href="{{ site.instagram_url }}">
+          <i class="icon-social-instagram"></i>
+        </a>
+      </p>
+      <div class="btn-group" role="group" aria-label="langages">
+        {% for tongue in site.languages %}
+          <a
+            role="button"
+            class="btn btn-secondary {% if tongue == site.active_lang %}disabled{% endif %}"
+            href="
+              {% if tongue == site.default_lang %}
+                {{ site.url }}{{ page.url }}
+              {% else %}
+                {{ site.url }}/{{ tongue }}{{ page.url }}
+              {% endif %}
+            "
+          >
+            {% if tongue == 'ja' %}Japanese{% endif %}
+            {% if tongue == 'en' %}English{% endif %}
+          </a>
+        {% endfor %}
+      </div>
     </li>
   </ul>
 </nav>

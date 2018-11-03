@@ -1,33 +1,31 @@
+{% assign i18n = site.data.i18n %}
+
 <!-- contact -->
 <section class="content-section bg-light" id="contact">
   <div class="container text-center">
     <div class="content-section-heading">
-      <h3 class="text-secondary mb-0">Contact</h3>
-      <h2 class="mb-5">お問合せ</h2>
+      <h2 class="mb-5">{{ i18n.section_name.contact }}</h2>
     </div>
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <div itemscope itemtype="http://schema.org/LocalBusiness" style="margin-bottom:3rem">
-          <div itemprop="name" class="h2">{{ site.title }}</div>
+          <div itemprop="name" class="h2">{{ i18n.author.name }}</div>
           <span itemprop="telephone" class="h2">
             <i class="icon-phone" ></i>
-            <a href="tel:{{ site.author.phone }}" class="h1">
+            <a href="tel:{{ i18n.author.phone }}" class="h1">
               <strong>
-                {{ site.author.phone }}
+                {{ i18n.author.phone }}
               </strong>
             </a>
           </span>
         </div>
-        <p>
-          <strong>営業時間</strong>
-          <br>
-          9:00～18:00 (完売終了)
-        </p>
-        <p>
-          <strong>定休日</strong>
-          <br>
-          木曜日、金曜日
-        </p>
+        {{ i18n.contact.business_hours }}
+
+        {% if i18n.contact.info %}
+          <div class="alert alert-info text-left" role="alert" style="margin-top:2rem">
+            {{ i18n.contact.info }}
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>

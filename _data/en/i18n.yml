@@ -1,43 +1,43 @@
-title: Hanare Cafe in Toshi-jima
+title: Hanare Cafe in Toshijima
 description: |
-  A bakery located in a beautiful sightseeing spot, Toshi-jima, just 20-minutes away from Toba by ferry.
+  A bakery located in a beautiful sightseeing spot, Toshijima, just 20-minutes away from Toba by ferry.
   We bake unique pastries using local fresh ingredients, such as oysters and nori seaweed.
 author:
-  name: Hanare Cafe in Toshi-jima
+  name: Hanare Cafe in Toshijima
   address: "259 Momotorichō, Toba-shi, Mie-ken, Japan"
   phone: "+81599200099"
 section_name:
   home: Home
   services: What We Offer
   portfolio: Our Products
-  biography: Biography
+  biography: Meet the Owners
   contact: Contact
   location: Directions
 about:
   lead_paragraph: |
-    A bakery located in a beautiful sightseeing spot, Toshi-jima, just 20-minutes away from Toba by ferry.
-    We bake unique pastries using local fresh ingredients as well as good old classics.
+    Our cafe/bakery is located in Toshijima, a beautiful sightseeing spot just a 20-minutes ferry ride from Toba.
+    We bake delicious unique and classic pastries using fresh, local ingredients.
 services:
   list:
     - title: Pastries
       fa_icon: "hockey-puck"
       description: |
-        We bake unique pastries taking advantage of 17-years of owner's experience as a professional chef and
-        all the fresh ingredients locally available.
-    - title: Cafeteria
+        Our delicious pastries, which use fresh local and regional ingredients, consist of both classic and unique assortments and offer something delightful for everyone.
+    - title: Amenities
       fa_icon: "coffee"
       description: |
-        We have a little cafe space of eight seats where you can eat our bread inside the store.
-        Coffee, tea, ice cream etc are available for your convenience.
-    - title: Foodtruck
+        We offer other food options, such as ice cream, along with a variety of beverage options, including coffee and tea.
+        Hanare comfortably seats eight people; but, with the beautiful weather throughout the year, you’ll find it equally pleasant to eat outside and enjoy the serenity and beauty of the island.
+    - title: Food Truck
       fa_icon: "truck"
       description: |
-        We drive a foodtruck to provide our bread on the other side of the island every now and then.
-        In addition, we ship bread on municipal liner to other islands in the region (Sakashima, Sugashima, Kamijima).
+        Our food truck occasionally travels throughout the island providing extended access to our mouth-watering pastries.
+        We also ship our baked goods to other islands in the region (e.g., Sakashima,  Sugashima, Kamijima) by use of a municipal liner.
     - title: Special Order Service
       fa_icon: "plus"
       description: |
-        By appointment, we can accept special orders for bento lunch boxes, big fruits tarts, sushi or anything we can prepare.
+        By appointment, we can accept special orders for bento lunch boxes, big fruits tarts, sushi, among other things.
+        Contact us today to learn what other custom-made delights we can offer.
 portfolio:
   flour_we_use_text: We use "Nishi no kaori"(ニシノカオリ) wheat flour produced in Mie Prefecture.
   list:
@@ -54,7 +54,7 @@ portfolio:
       description: Contains locally-produced oysters
       img_file: "menu_oyster_gratin.jpg"
     - title: Classics
-      description: Red bean pastries(あんぱん) and cream pastries(クリームパン) are always polular in Japan
+      description: Red bean pastries(あんぱん) and cream pastries(クリームパン) are always popular in Japan
       img_file: "hanare_foodtruck_shelf.jpg"
     - title: Cooked Pastries
       description: We are always ambitous about creating new unique products
@@ -75,15 +75,16 @@ biography:
   atsushi:
     name: Atsushi Tokumoto (徳本篤司)
     description: |
-      From Kuwana, Mie. Studied at a cooking and confectionery school.
-      Worked for a hotel as a cook of Japanese cuisine for 17 years.
+      Atsushi is from Kuwana, Mie.
+      He studied at a cooking and confectionery school and has 17 years of experience cooking Japanese cuisine.
   eri:
     name: Eri Tokumoto (徳本江里)
     description: |
-      From Toshijima. Her family runs wakeme farming and oyster farming.
-      Met Atrsushi when she was working for a hotel in Kuwana.
+      Eri is Toshijima, where her family runs wakeme farming and oyster farming.
+      She co-manages the cafe and provides warm smiles and greetings to customers.
   info: |
-    <p class="card-text">
+    <h4 class="alert-heading"><i class="fas fa-info-circle"></i></h4>
+    <p>
       <a href="http://www.nijinet.or.jp/publishing/shima/bn/tabid/219/Default.aspx">
         徳本篤司（2018）「妻の故郷、漁業の島でパン屋を経営（三重県答志島）」、『季刊 しま』254号、公益財団法人 日本離島センター
       </a>
@@ -107,15 +108,16 @@ contact:
       Thursdays and Fridays
     </p>
   info: |
-    <p class="card-text">
-      Sorry, we do not speak English. That would be great if you can find a Japanese speaker before calling us.
+    <h4 class="alert-heading"><i class="fas fa-info-circle"></i></h4>
+    <p>
+      We do not speak English. That would be great if you can find a Japanese speaker before calling us.
     </p>
 location:
   kintetsu_toba: Kintetsu Railway - Toba Station
   ferry_toba_marine_terminal: Toba Marine Terminal
   ferry_momotori_station: Toba Municipal Liner Ship - Momotori Station
   walk_10min: 10 minutes walk
-  ferry_15min: 15 minutes by ferry
+  ferry_15min: 15 minutes ferry ride
   walk_3min: 3 minutes walk
   satahama_parking: Parking near Toba Marine Terminal
   ferry_stations: Toba Municipal Liner Ship - Stations

@@ -1,0 +1,124 @@
+title: 섬의 빵 집 ~Hanare~
+description: |
+  토바에서 페리로 20 분 거리의 아름다운 관광지 인 토시 지마 에 위치한 제과점.
+  굴과 노리 미역과 같은 신선한 재료를 사용하여 독특한 패스트리를 구워냅니다.
+author:
+  name: 섬의 빵 집 ~Hanare~
+  address: 259 Momotorichō, Toba-shi, Mie-ken, Japan
+  phone: "+81599200099"
+section_name:
+  home: 홈
+  services: 영업 내용
+  portfolio: 제품 소개
+  biography: 점원의 소개
+  contact: 문의
+  location: 교통 안내
+about:
+  lead_paragraph: |
+    토바에서 페리로 20 분 거리의 아름다운 관광지 인 토시 지마 에 위치한 제과점.
+    굴과 노리 미역과 같은 신선한 재료를 사용하여 독특한 패스트리를 구워냅니다.
+services:
+  list:
+    - title: 빵 제조 판매
+      fa_icon: "hockey-puck"
+      description: |
+        신선한 현지 및 지역 재료를 사용하는이 맛있는 패스트리는 고전적이고 독특한 구색으로 구성되어 있으며 모두에게 즐거운 것을 제공합니다.
+    - title: 점내 카페
+      fa_icon: "coffee"
+      description: |
+        우리는 커피와 차를 포함한 다양한 음료 옵션과 함께 아이스크림과 같은 다른 음식 옵션을 제공합니다.
+        Hanare는 여덟 명을 편안하게 앉습니다. 그러나 일년 내내 아름다운 날씨가 만나는 동안 바깥에서 식사하고 섬의 고요함과 아름다움을 즐기는 것이 즐겁습니다.
+    - title: 빵 이동 판매
+      fa_icon: "truck"
+      description: |
+        우리의 식량 트럭은 가끔씩 섬 전역을 여행하며 우리의 입속 용 파이에 장기간 접근 할 수 있습니다.
+        우리는 구운 물건을 도시의 다른 섬들 (예: 사카시마, 스가시마, 가미지마)에 시립 라이너를 사용하여 출하합니다.
+    - title: 특별 주문 서비스
+      fa_icon: "plus"
+      description: |
+        예약을하면 도시락 도시락, 큰 과일 타르트, 스시 등 특별 주문을받을 수 있습니다.
+        오늘 우리가 제공 할 수있는 다른 맞춤형 기쁨을 배우려면 지금 문의하십시오.
+portfolio:
+  flour_we_use_text: 미에현 산 밀가루 100 % 강력분 "니시노카오리"를 사용하고 있습니다.
+  list:
+    - title: 순무 식빵
+      description: 지역 특산 순무 분말이 들어 있습니다. 순무 특유의 끈기가 식빵을 갖고 당합니다.
+      img_file: "menu_mekabu_loaf.jpg"
+    - title: 미역 소금 빵
+      description: 지역 특산 미역을 사용한 HaNaRe 원래 소금 팬입니다.
+      img_file: "menu_wakame_shio.jpg"
+    - title: 설탕 버터
+      description: 지역 특산의 삶 근원이 가득한 푸른이 포함되어 있습니다.
+      img_file: "menu_sugar_butter.jpg"
+    - title: 굴 그라탕
+      description: 지역 굴이 들어 있습니다.
+      img_file: "menu_oyster_gratin.jpg"
+    - title: 클래식
+      description: 팥빵이나 크림 빵 등의 단골도 갖추고 있습니다.
+      img_file: "hanare_foodtruck_shelf.jpg"
+    - title: 창작 요리 빵
+      description: 원래 조리 빵을 매일 연구하고 있습니다.
+      img_file: "menu_pastry_assortment.jpg"
+    - title: 데니쉬
+      description: 신선한 과일을 듬뿍 사용하고 있습니다.
+      img_file: "menu_danishes.jpg"
+    - title: 도시락 (예약 필요)
+      description: 이벤트 등으로 호평을 받고 있습니다.
+      img_file: "special_bento.jpg"
+    - title: 생일 타르트 (예약 필요)
+      description: 생일 파티, 기념일 등에.
+      img_file: "special_bday_tart.jpg"
+    - title: 요리 (예약 필요)
+      description: 당점 오너 셰프가 준비, 조리 가능한 범위에서 요청에 대한 답변드립니다.
+      img_file: "special_katsuo.jpg"
+biography:
+  atsushi:
+    name: Atsushi Tokumoto
+    description: |
+      아츠시는 미에 쿠와 나 출신이다.
+      그는 요리 및 과자 학교에서 공부하고 17 년 동안 일본 요리를 요리 한 경험이 있습니다.
+  eri:
+    name: Eri Tokumoto
+    description: |
+      Eri는 토시 지마 입니다. 토시 지마 는 그녀의 가족이와 케임 농사와 굴 양식을 운영하는 곳입니다.
+      그녀는 카페를 공동 관리하고 따뜻한 웃음과 인사를 고객에게 제공합니다.
+  info: |
+    <h4 class="alert-heading"><i class="fas fa-info-circle"></i></h4>
+    <p>
+      <a href="http://www.nijinet.or.jp/publishing/shima/bn/tabid/219/Default.aspx">
+        徳本篤司（2018）「妻の故郷、漁業の島でパン屋を経営（三重県答志島）」、『季刊 しま』254号、公益財団法人 日本離島センター
+      </a>
+      <a class="btn btn-secondary btn-sm" href="http://www.nijinet.or.jp/Portals/0/pdf/publishing/shima/254/shima_254_02.pdf">
+        <i class="fas fa-file-pdf"></i>
+        Download
+      </a>
+    </p>
+contact:
+  business_hours: |
+    <p>
+      <strong>영업 시간</strong>
+      <br>
+      9:00 - 18:00 *
+      <br>
+      * 비즈니스가 끝나기 전에 모든 페이스트리가 매진되면 매장은 일찍 종료 될 수 있습니다.
+    </p>
+    <p>
+      <strong>휴무일</strong>
+      <br>
+      목요일, 금요일
+    </p>
+  info: |
+    <h4 class="alert-heading"><i class="fas fa-info-circle"></i></h4>
+    <p>
+      죄송하지만, 한국어를 할 수 없기 때문에, 일본어를 할로 연락을 부탁 해 주시면 감사하겠습니다.
+    </p>
+location:
+  kintetsu_toba: 킨테츠　도바역
+  ferry_toba_marine_terminal: 도바 마린 터미널
+  ferry_momotori_station: 토바 시영 정기선 - Momotori 역
+  walk_10min: 도보 약 10 분
+  ferry_15min: 정기선으로 약 15 분
+  walk_3min: 도보 약 3 분
+  satahama_parking: 토바 마린 터미널 근처 주차장
+  ferry_stations: 토바 시영 정기선 승강장
+  ferry_timetable: 토바 시영 정기선 시간표

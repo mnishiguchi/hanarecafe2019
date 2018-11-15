@@ -1,8 +1,8 @@
 title: 島のパン家 〜ハナレ〜
-description: "鳥羽から定期船で20分の絶景観光スポット答志島の地元食材を使用した焼きたて創作パンのお店"
+description: 鳥羽から定期船で20分の絶景観光スポット答志島の地元食材を使用した焼きたて創作パンのお店
 author:
   name: 島のパン家 〜ハナレ〜
-  address: "三重県鳥羽市桃取町259"
+  address: 三重県鳥羽市桃取町259
   phone: "0599-20-0099"
 section_name:
   home: ホーム
@@ -37,35 +37,35 @@ services:
 portfolio:
   flour_we_use_text: 三重県産小麦100%の強力粉『ニシノカオリ』を使用しています。
   list:
-    - title: "めかぶ食パン"
-      description: "桃取産めかぶの粉末が入っています。めかぶ特有の粘りが食パンをもっちりに。"
+    - title: めかぶ食パン
+      description: 桃取産めかぶの粉末が入っています。めかぶ特有の粘りが食パンをもっちりに。
       img_file: "menu_mekabu_loaf.jpg"
-    - title: "わかめ塩パン"
-      description: "桃取産わかめを使ったHaNaReのオリジナル塩パンです。"
+    - title: わかめ塩パン
+      description: 桃取産わかめを使ったHaNaReのオリジナル塩パンです。
       img_file: "menu_wakame_shio.jpg"
-    - title: "シュガーバター"
-      description: "桃取産のあおさが入っています。"
+    - title: シュガーバター
+      description: 桃取産のあおさが入っています。
       img_file: "menu_sugar_butter.jpg"
-    - title: "牡蠣グラタン"
-      description: "桃取産牡蠣入りです。"
+    - title: 牡蠣グラタン
+      description: 桃取産牡蠣入りです。
       img_file: "menu_oyster_gratin.jpg"
-    - title: "定番"
-      description: "あんぱんやクリームパン等の定番も取り揃えています。"
+    - title: 定番
+      description: あんぱんやクリームパン等の定番も取り揃えています。
       img_file: "hanare_foodtruck_shelf.jpg"
-    - title: "創作調理パン"
-      description: "オリジナル調理パンを日々研究しています。"
+    - title: 創作調理パン
+      description: オリジナル調理パンを日々研究しています。
       img_file: "menu_pastry_assortment.jpg"
-    - title: "デニッシュ"
-      description: "新鮮なフルーツをふんだんに使用してます。"
+    - title: デニッシュ
+      description: 新鮮なフルーツをふんだんに使用してます。
       img_file: "menu_danishes.jpg"
-    - title: "お弁当（要予約）"
-      description: "イベント等にお弁当もご好評いただいています。"
+    - title: お弁当（要予約）
+      description: イベント等にご好評いただいています。
       img_file: "special_bento.jpg"
-    - title: "バースデータルト（要予約）"
-      description: "お誕生日会、記念日等に。"
+    - title: バースデータルト（要予約）
+      description: お誕生日会、記念日等に。
       img_file: "special_bday_tart.jpg"
-    - title: "お料理（要予約）"
-      description: "当店オーナーシェフが準備、調理可能な範囲でご要望にお答えいたします。"
+    - title: お料理（要予約）
+      description: 当店オーナーシェフが準備、調理可能な範囲でご要望にお答えいたします。
       img_file: "special_katsuo.jpg"
 biography:
   atsushi:

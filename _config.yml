@@ -16,7 +16,7 @@ plugins:
   - jekyll-sitemap
 
 # jekyll-polyglot
-languages: ["ja", "en"]
+languages: ["ja", "en", "ko"]
 default_lang: "ja"
 exclude_from_localization: ["assets", "css", "vendor"]
 parallel_localization: true

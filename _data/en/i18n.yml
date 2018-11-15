@@ -54,7 +54,7 @@ portfolio:
       description: Contains locally-produced oysters
       img_file: "menu_oyster_gratin.jpg"
     - title: Classics
-      description: Red bean pastries(あんぱん) and cream pastries(クリームパン) are always popular in Japan
+      description: We bake delicious unique and classic pastries using fresh, local ingredients.
       img_file: "hanare_foodtruck_shelf.jpg"
     - title: Cooked Pastries
       description: We are always ambitous about creating new unique products
@@ -62,25 +62,25 @@ portfolio:
     - title: Danish Pastries
       description: We use plenty of fresh fruits
       img_file: "menu_danishes.jpg"
-    - title: Bento（By Reservation)
+    - title: Bento<br>(By Reservation)
       description: Perfect for local events
       img_file: "special_bento.jpg"
-    - title: Big Fruit Tart（By Reservation)
+    - title: Big Fruit Tart<br>(By Reservation)
       description: Perfect for birthday party, anniversary etc
       img_file: "special_bday_tart.jpg"
-    - title: "Cooking（By Reservation)"
+    - title: "Cooking<br>(By Reservation)"
       description: We can cook anything for you.
       img_file: "special_katsuo.jpg"
 biography:
   atsushi:
-    name: Atsushi Tokumoto (徳本篤司)
+    name: Atsushi Tokumoto
     description: |
       Atsushi is from Kuwana, Mie.
       He studied at a cooking and confectionery school and has 17 years of experience cooking Japanese cuisine.
   eri:
-    name: Eri Tokumoto (徳本江里)
+    name: Eri Tokumoto
     description: |
-      Eri is Toshijima, where her family runs wakeme farming and oyster farming.
+      Eri is from Toshijima, where her family runs wakeme farming and oyster farming.
       She co-manages the cafe and provides warm smiles and greetings to customers.
   info: |
     <h4 class="alert-heading"><i class="fas fa-info-circle"></i></h4>

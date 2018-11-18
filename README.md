@@ -6,4 +6,5 @@
 - [stylish-portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio/)
 - [single div timeline](https://codepen.io/NielsVoogt/pen/MbMMxv)
 - [untra/polyglot](https://github.com/untra/polyglot)
+- [penibelst/jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)
 - etc

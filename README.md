@@ -7,4 +7,5 @@
 - [single div timeline](https://codepen.io/NielsVoogt/pen/MbMMxv)
 - [untra/polyglot](https://github.com/untra/polyglot)
 - [penibelst/jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)
+- [How to Use ES6 and Webpack With Jekyll](https://michaelmovsesov.com/articles/jekyll-es6-workflow)
 - etc

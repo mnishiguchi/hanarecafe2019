@@ -5,11 +5,9 @@ $border-color: $primary;
   position: relative;
   color: rgba(black, 0.7);
   border-left: 2px solid $border-color;
-
   p {
     font-size: 1rem;
   }
-
   &::before {
     content: attr(location-name);
     position: absolute;
@@ -21,7 +19,6 @@ $border-color: $primary;
     font-weight: 700;
     font-size: 0.785rem;
   }
-
   &::after {
     width: 10px;
     height: 10px;
@@ -34,13 +31,4 @@ $border-color: $primary;
     border: 2px solid $border-color;
     background: white;
   }
-
-  // &:last-child {
-  //   border-image: linear-gradient(
-  //       to bottom,
-  //       $border-color 60%,
-  //       rgba($border-color, 0)
-  //     )
-  //     1 100%;
-  // }
 }

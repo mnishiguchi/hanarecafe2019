@@ -1,0 +1,30 @@
+@mixin background-image($background_url: "https://fakeimg.pl/350x200/E8EC98/E8EC98/?text=sample") {
+  padding: 15rem 0;
+  background: linear-gradient(
+      90deg,
+      fade-out($white, 0.9) 0%,
+      fade-out($white, 0.9) 100%
+    ),
+    url($background_url);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    max-width: 30rem;
+  }
+}
+
+.exterior {
+  @include background-image('../images/hanare_from_exterior.jpg');
+}
+
+.foodtruck {
+  @include background-image('../images/hanare_foodtruck.jpg');
+}
+
+.signpost {
+  @include background-image('../images/hanare_sign.jpg');
+}

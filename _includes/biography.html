@@ -6,15 +6,13 @@
     <div class="content-section-heading">
       <h2 class="mb-5">{{ i18n.section_name.biography }}</h2>
     </div>
-
     <a href="https://mainichi.jp/articles/20160726/ddl/k24/040/019000c">
       <img
         class="hanare_owners_img"
-        src="{{ '/assets/hanare_owners.jpg' | prepend: site.url }}"
+        src="{{ '/images/hanare_owners.jpg' | prepend: site.url }}"
         alt="hanare owners"
       >
     </a>
-
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <div class="row">
@@ -39,7 +37,6 @@
             </div>
           </div>
         </div>
-
         {% if i18n.biography.info %}
           <div class="alert alert-info text-left" role="alert" style="margin-top:2rem">
             {{ i18n.biography.info }}

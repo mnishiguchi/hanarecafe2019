@@ -5,18 +5,23 @@ sitemap: false
 
 @charset "utf-8";
 
+// vendor
+@import "bootstrap";
+@import "fontawesome-free-all";
+@import "simple-line-icons";
+
+// config
 @import "variables";
 @import "mixins";
 @import "global";
 @import "bootstrap-overrides";
 
+// custom
 @import "sidebar";
 @import "masthead";
-@import "exterior";
 @import "services";
 @import "portfolio";
 @import "biography";
-@import "foodtruck";
 @import "location";
-@import "signpost";
 @import "footer";
+@import "image_inserts";

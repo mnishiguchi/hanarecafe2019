@@ -1,35 +1,35 @@
 theme_color:    "#e8a675"
-permalink:      "pretty"
-url:            "https://hanarecafe.com" # hostname & protocol for this site
-favicon_path:   "/assets/images/favicon.ico"
-thumbnail_path: "/assets/images/thumbnail.jpg"
-rss_feed_path:  "/atom.xml"
-instagram_url:  "https://www.instagram.com/explore/locations/1104298032977143/hanare/"
-facebook_url:   "https://www.facebook.com/%E5%B3%B6%E3%81%AE%E3%83%91%E3%83%B3%E5%AE%B6-hanare-1104298032977143/"
-
-sass:
-  sass_dir:     _sass # the directory that contains sass partials
-  style:        :compressed
+permalink:      pretty
+url:            https://hanarecafe.com # hostname & protocol for this site
+favicon_path:   /assets/images/favicon.ico
+thumbnail_path: /assets/images/thumbnail.jpg
+rss_feed_path:  /atom.xml
+instagram_url:  https://www.instagram.com/explore/locations/1104298032977143/hanare/
+facebook_url:   https://www.facebook.com/%E5%B3%B6%E3%81%AE%E3%83%91%E3%83%B3%E5%AE%B6-hanare-1104298032977143/
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - webpack.config.js
   - package.json
-  - yarn.lock
   - webpack
+  - webpack.config.js
+  - yarn.lock
 
 plugins:
   - jekyll-polyglot
   - jekyll-sitemap
 
 # jekyll-polyglot
-languages: ["ja", "en", "ko"]
+languages:
+  - ja
+  - en
+  - ko
 default_lang: ja
 exclude_from_localization:
-  - css
-  - images
-  - js
-  - fonts
+  - assets
+  - atom.xml
+  - LICENSE
+  - README.md
+  - 404.html
 parallel_localization: true

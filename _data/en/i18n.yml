@@ -20,21 +20,21 @@ about:
 services:
   list:
     - title: Pastries
-      fa_icon: "hockey-puck"
+      icon_name: "cloud"
       description: |
         Our delicious pastries, which use fresh local and regional ingredients, consist of both classic and unique assortments and offer something delightful for everyone.
     - title: Amenities
-      fa_icon: "coffee"
+      icon_name: "local_cafe"
       description: |
         We offer other food options, such as ice cream, along with a variety of beverage options, including coffee and tea.
         Hanare comfortably seats eight people; but, with the beautiful weather throughout the year, you’ll find it equally pleasant to eat outside and enjoy the serenity and beauty of the island.
     - title: Food Truck
-      fa_icon: "truck"
+      icon_name: "truck"
       description: |
         Our food truck occasionally travels throughout the island providing extended access to our mouth-watering pastries.
         We also ship our baked goods to other islands in the region (e.g., Sakashima,  Sugashima, Kamijima) by use of a municipal liner.
     - title: Special Order Service
-      fa_icon: "plus"
+      icon_name: "spoon-knife"
       description: |
         By appointment, we can accept special orders for bento lunch boxes, big fruits tarts, sushi, among other things.
         Contact us today to learn what other custom-made delights we can offer.
@@ -43,34 +43,34 @@ portfolio:
   list:
     - title: Mekabu Loaf
       description: Nutritious mekabu powder is blended in the dough, which gives the loaf unique texture and flavor.
-      img_file: "menu_mekabu_loaf.jpg"
+      img_file: "mekabu_loaf.jpg"
     - title: Wakame Shio Roll
       description: Contains locally-produced wakame
-      img_file: "menu_wakame_shio.jpg"
+      img_file: "wakame_shio.jpg"
     - title: Sugar Butter Roll
       description: Contains locally-produced aosa
-      img_file: "menu_sugar_butter.jpg"
+      img_file: "sugar_butter.jpg"
     - title: Oyster Gratin
       description: Contains locally-produced oysters
-      img_file: "menu_oyster_gratin.jpg"
+      img_file: "oyster_gratin.jpg"
     - title: Classics
       description: We bake delicious unique and classic pastries using fresh, local ingredients.
       img_file: "hanare_foodtruck_shelf.jpg"
     - title: Cooked Pastries
       description: We are always ambitous about creating new unique products
-      img_file: "menu_pastry_assortment.jpg"
+      img_file: "pastry_assortment.jpg"
     - title: Danish Pastries
       description: We use plenty of fresh fruits
-      img_file: "menu_danishes.jpg"
+      img_file: "danishes.jpg"
     - title: Bento<br>(By Reservation)
       description: Perfect for local events
-      img_file: "special_bento.jpg"
+      img_file: "bento.jpg"
     - title: Big Fruit Tart<br>(By Reservation)
       description: Perfect for birthday party, anniversary etc
-      img_file: "special_bday_tart.jpg"
+      img_file: "bday_tart.jpg"
     - title: "Cooking<br>(By Reservation)"
       description: We can cook anything for you.
-      img_file: "special_katsuo.jpg"
+      img_file: "katsuo.jpg"
 biography:
   atsushi:
     name: Atsushi Tokumoto

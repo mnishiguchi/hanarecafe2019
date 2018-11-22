@@ -8,4 +8,7 @@
 - [untra/polyglot](https://github.com/untra/polyglot)
 - [penibelst/jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)
 - [How to Use ES6 and Webpack With Jekyll](https://michaelmovsesov.com/articles/jekyll-es6-workflow)
+- [webpack](https://webpack.js.org/)
+- [survivejs](https://survivejs.com/webpack)
+- [icomoon.io](https://icomoon.io/#docs/inline-svg)
 - etc

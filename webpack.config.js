@@ -1,6 +1,9 @@
+// https://webpack.js.org/configuration/
 const path = require("path");
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
-// Output to "_includes/"" dir so that it can be inlined.
 module.exports = {
   mode: "production",
   watch: true,
@@ -8,25 +11,68 @@ module.exports = {
     main: path.join(__dirname, "webpack", "main")
   },
   output: {
-    filename: "[name]_bundle.js",
-    path: path.resolve(__dirname, "_includes")
+    filename: "assets/[name]-bundle.js",
+    path: path.resolve(__dirname)
+  },
+  plugins: [
+    // https://webpack.js.org/plugins/mini-css-extract-plugin/
+    new MiniCssExtractPlugin({
+      filename: "assets/[name]-bundle.css",
+      chunkFilename: "[id].css"
+    })
+  ],
+  // https://webpack.js.org/configuration/resolve/
+  resolve: {
+    extensions: [".json", ".js", ".jsx"],
+    modules: ["node_modules"]
+  },
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        cache: true,
+        parallel: true,
+        sourceMap: true // set to true if you want JS source maps
+      }),
+      new OptimizeCSSAssetsPlugin({})
+    ]
   },
   module: {
     rules: [
+      // https://babeljs.io/setup#installation
+      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
       {
-        test: /\.jsx?$/,
-        exclude: [
-          path.resolve(__dirname, "node_modules"),
-          path.resolve(__dirname, "bower_components")
-        ],
-        loader: "babel-loader",
-        query: {
-          presets: ["env"]
-        }
+        test: /\.scss$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              // you can specify a publicPath here
+              // by default it use publicPath in webpackOptions.output
+              publicPath: "../"
+            }
+          },
+          { loader: "css-loader", options: { importLoaders: 1 } },
+          {
+            loader: "postcss-loader",
+            options: {
+              plugins: () => [require("cssnano")()]
+            }
+          },
+          "sass-loader"
+        ]
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              name: "assets/images/[name].[ext]",
+              limit: 50000
+            }
+          }
+        ]
       }
     ]
-  },
-  resolve: {
-    extensions: [".json", ".js", ".jsx"]
   }
 };

@@ -1,7 +1,10 @@
-import mapEventHandler from "./lib/mapEventHandler";
-import sidebarEventHandler from "./lib/sidebarEventHandler";
-import scrollEventHandler from "./lib/scrollEventHandler";
+import mapEventHandler from "./js/mapEventHandler";
+import sidebarEventHandler from "./js/sidebarEventHandler";
+import scrollEventHandler from "./js/scrollEventHandler";
+import "./main.scss";
 
-mapEventHandler.init();
-sidebarEventHandler.init();
-scrollEventHandler.init();
+document.addEventListener("DOMContentLoaded", function() {
+  mapEventHandler.init();
+  sidebarEventHandler.init();
+  scrollEventHandler.init();
+});

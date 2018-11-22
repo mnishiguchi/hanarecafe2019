@@ -16,22 +16,22 @@ about:
 services:
   list:
     - title: パン製造販売
-      fa_icon: "hockey-puck"
+      icon_name: "cloud"
       description: |
         水産業の盛んな答志島には、さまざまな海産物が溢れており、それをパンにも使用しています。
         島外から来られた方にも印象に残るメニューを工夫しています。
     - title: 店内カフェ
-      fa_icon: "coffee"
+      icon_name: "local_cafe"
       description: |
         小さな店舗ですが八席のカフェスペースを設け、パンを店内でも食べることができるようにしました。
         コーヒーやソフトアイスなど喫茶メニューも揃えています。
     - title: パン移動販売
-      fa_icon: "truck"
+      icon_name: "truck"
       description: |
         島の反対側の答志地区まで車でのパン移動販売をしています。
         また、市営定期船にパンを積み込み、各島（坂手島・菅島・神島）へパンを配達しています。
     - title: スペシャルオーダーサービス
-      fa_icon: "plus"
+      icon_name: "spoon-knife"
       description: |
         お弁当、お料理、誕生日ケーキならぬバースディタルト等のスペシャルオーダーを承り可能です。
 portfolio:
@@ -39,34 +39,34 @@ portfolio:
   list:
     - title: めかぶ食パン
       description: 桃取産めかぶの粉末が入っています。めかぶ特有の粘りが食パンをもっちりに。
-      img_file: "menu_mekabu_loaf.jpg"
+      img_file: "mekabu_loaf.jpg"
     - title: わかめ塩パン
       description: 桃取産わかめを使ったHaNaReのオリジナル塩パンです。
-      img_file: "menu_wakame_shio.jpg"
+      img_file: "wakame_shio.jpg"
     - title: シュガーバター
       description: 桃取産のあおさが入っています。
-      img_file: "menu_sugar_butter.jpg"
+      img_file: "sugar_butter.jpg"
     - title: 牡蠣グラタン
       description: 桃取産牡蠣入りです。
-      img_file: "menu_oyster_gratin.jpg"
+      img_file: "oyster_gratin.jpg"
     - title: 定番
       description: あんぱんやクリームパン等の定番も取り揃えています。
       img_file: "hanare_foodtruck_shelf.jpg"
     - title: 創作調理パン
       description: オリジナル調理パンを日々研究しています。
-      img_file: "menu_pastry_assortment.jpg"
+      img_file: "pastry_assortment.jpg"
     - title: デニッシュ
       description: 新鮮なフルーツをふんだんに使用してます。
-      img_file: "menu_danishes.jpg"
+      img_file: "danishes.jpg"
     - title: お弁当（要予約）
       description: イベント等にご好評いただいています。
-      img_file: "special_bento.jpg"
+      img_file: "bento.jpg"
     - title: バースデータルト（要予約）
       description: お誕生日会、記念日等に。
-      img_file: "special_bday_tart.jpg"
+      img_file: "bday_tart.jpg"
     - title: お料理（要予約）
       description: 当店オーナーシェフが準備、調理可能な範囲でご要望にお答えいたします。
-      img_file: "special_katsuo.jpg"
+      img_file: "katsuo.jpg"
 biography:
   atsushi:
     name: 徳本篤司

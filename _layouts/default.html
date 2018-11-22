@@ -8,13 +8,9 @@ layout: compress
 {% include head.html %}
 
 <body id="page-top">
-
+  {% include svg_icons.html %}
   {{ content }}
-
   {% include footer.html %}
-
-  <script>
-    {% include main_bundle.js %}
-  </script>
+  <script src="{{ site.url }}/assets/main-bundle.js"></script>
 </body>
 </html>

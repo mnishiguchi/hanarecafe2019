@@ -20,21 +20,21 @@ about:
 services:
   list:
     - title: 빵 제조 판매
-      fa_icon: "hockey-puck"
+      icon_name: "cloud"
       description: |
         신선한 현지 및 지역 재료를 사용하는이 맛있는 패스트리는 고전적이고 독특한 구색으로 구성되어 있으며 모두에게 즐거운 것을 제공합니다.
     - title: 점내 카페
-      fa_icon: "coffee"
+      icon_name: "local_cafe"
       description: |
         우리는 커피와 차를 포함한 다양한 음료 옵션과 함께 아이스크림과 같은 다른 음식 옵션을 제공합니다.
         Hanare는 여덟 명을 편안하게 앉습니다. 그러나 일년 내내 아름다운 날씨가 만나는 동안 바깥에서 식사하고 섬의 고요함과 아름다움을 즐기는 것이 즐겁습니다.
     - title: 빵 이동 판매
-      fa_icon: "truck"
+      icon_name: "truck"
       description: |
         우리의 식량 트럭은 가끔씩 섬 전역을 여행하며 우리의 입속 용 파이에 장기간 접근 할 수 있습니다.
         우리는 구운 물건을 도시의 다른 섬들 (예: 사카시마, 스가시마, 가미지마)에 시립 라이너를 사용하여 출하합니다.
     - title: 특별 주문 서비스
-      fa_icon: "plus"
+      icon_name: "spoon-knife"
       description: |
         예약을하면 도시락 도시락, 큰 과일 타르트, 스시 등 특별 주문을받을 수 있습니다.
         오늘 우리가 제공 할 수있는 다른 맞춤형 기쁨을 배우려면 지금 문의하십시오.
@@ -43,34 +43,34 @@ portfolio:
   list:
     - title: 순무 식빵
       description: 지역 특산 순무 분말이 들어 있습니다. 순무 특유의 끈기가 식빵을 갖고 당합니다.
-      img_file: "menu_mekabu_loaf.jpg"
+      img_file: "mekabu_loaf.jpg"
     - title: 미역 소금 빵
       description: 지역 특산 미역을 사용한 HaNaRe 원래 소금 팬입니다.
-      img_file: "menu_wakame_shio.jpg"
+      img_file: "wakame_shio.jpg"
     - title: 설탕 버터
       description: 지역 특산의 삶 근원이 가득한 푸른이 포함되어 있습니다.
-      img_file: "menu_sugar_butter.jpg"
+      img_file: "sugar_butter.jpg"
     - title: 굴 그라탕
       description: 지역 굴이 들어 있습니다.
-      img_file: "menu_oyster_gratin.jpg"
+      img_file: "oyster_gratin.jpg"
     - title: 클래식
       description: 팥빵이나 크림 빵 등의 단골도 갖추고 있습니다.
       img_file: "hanare_foodtruck_shelf.jpg"
     - title: 창작 요리 빵
       description: 원래 조리 빵을 매일 연구하고 있습니다.
-      img_file: "menu_pastry_assortment.jpg"
+      img_file: "pastry_assortment.jpg"
     - title: 데니쉬
       description: 신선한 과일을 듬뿍 사용하고 있습니다.
-      img_file: "menu_danishes.jpg"
+      img_file: "danishes.jpg"
     - title: 도시락 (예약 필요)
       description: 이벤트 등으로 호평을 받고 있습니다.
-      img_file: "special_bento.jpg"
+      img_file: "bento.jpg"
     - title: 생일 타르트 (예약 필요)
       description: 생일 파티, 기념일 등에.
-      img_file: "special_bday_tart.jpg"
+      img_file: "bday_tart.jpg"
     - title: 요리 (예약 필요)
       description: 당점 오너 셰프가 준비, 조리 가능한 범위에서 요청에 대한 답변드립니다.
-      img_file: "special_katsuo.jpg"
+      img_file: "katsuo.jpg"
 biography:
   atsushi:
     name: Atsushi Tokumoto

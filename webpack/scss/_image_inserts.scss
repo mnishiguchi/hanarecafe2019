@@ -18,13 +18,13 @@
 }
 
 .exterior {
-  @include background-image('../images/hanare_from_exterior.jpg');
+  @include background-image('./images/hanare_exterior.jpg');
 }
 
 .foodtruck {
-  @include background-image('../images/hanare_foodtruck.jpg');
+  @include background-image('./images/hanare_foodtruck.jpg');
 }
 
 .signpost {
-  @include background-image('../images/hanare_sign.jpg');
+  @include background-image('./images/hanare_sign.jpg');
 }

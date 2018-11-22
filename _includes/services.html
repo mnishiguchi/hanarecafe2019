@@ -11,7 +11,7 @@
       {% for service in i18n.services.list %}
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fas fa-{{ service.fa_icon }}"></i>
+            <svg class="svg-icon icon-{{ service.icon_name }}"><use xlink:href="#icon-{{ service.icon_name }}"></use></svg>
           </span>
           <h4>
             <strong>{{ service.title }}</strong>

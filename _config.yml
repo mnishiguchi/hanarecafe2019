@@ -1,8 +1,8 @@
 theme_color:    "#e8a675"
 permalink:      "pretty"
 url:            "https://hanarecafe.com" # hostname & protocol for this site
-favicon_path:   "/images/favicon.ico"
-thumbnail_path: "/images/thumbnail.jpg"
+favicon_path:   "/assets/images/favicon.ico"
+thumbnail_path: "/assets/images/thumbnail.jpg"
 rss_feed_path:  "/atom.xml"
 instagram_url:  "https://www.instagram.com/explore/locations/1104298032977143/hanare/"
 facebook_url:   "https://www.facebook.com/%E5%B3%B6%E3%81%AE%E3%83%91%E3%83%B3%E5%AE%B6-hanare-1104298032977143/"
@@ -31,5 +31,5 @@ exclude_from_localization:
   - css
   - images
   - js
-  - webfonts
+  - fonts
 parallel_localization: true

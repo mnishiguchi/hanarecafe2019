@@ -1,5 +1,6 @@
 const path = require("path");
 
+// Output to "_includes/"" dir so that it can be inlined.
 module.exports = {
   mode: "production",
   watch: true,
@@ -7,8 +8,8 @@ module.exports = {
     main: path.join(__dirname, "webpack", "main")
   },
   output: {
-    filename: "[name]-bundle.js",
-    path: path.resolve(__dirname, "js")
+    filename: "[name]_bundle.js",
+    path: path.resolve(__dirname, "_includes")
   },
   module: {
     rules: [

@@ -18,8 +18,9 @@
     <meta property="og:title" content="{{ i18n.title }}">
   {% endif %}
 
-  <link rel="shortcut icon" href="{{ site.favicon_path | prepend: site.url }}" type="image/x-icon">
-  <link rel="icon" href="{{ site.favicon_path | prepend: site.url }}" type="image/x-icon">
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="/manifest.json">
 
   {% I18n_Headers %}
 
@@ -34,10 +35,10 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ i18n.description }}{% endif %}">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-  <link rel="stylesheet" href="  /assets/main-bundle.css" type="text/css">
+  <link rel="stylesheet" href="/assets/main-bundle.css" type="text/css">
 
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ i18n.title }}" href="{{ site.rss_feed_path | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ i18n.title }}" href="/atom.xml">
 
   {% if jekyll.environment == "production" %}
     {% include google_analytics.html %}

@@ -1,6 +1,6 @@
 export default {
   init: () => {
-    // console.log("scrollEventHandler.init");
+    console.log("scrollEventHandler.init");
     const scrollTriggers = document.querySelectorAll(
       'a.js-scroll-trigger[href*="#"]:not([href="#"])'
     );

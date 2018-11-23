@@ -3,6 +3,7 @@ const path = require("path");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const ServiceWorkerWebpackPlugin = require("serviceworker-webpack-plugin");
 
 module.exports = {
   mode: "production",
@@ -19,6 +20,9 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "assets/[name]-bundle.css",
       chunkFilename: "[id].css"
+    }),
+    new ServiceWorkerWebpackPlugin({
+      entry: path.join(__dirname, "webpack", "sw.js")
     })
   ],
   // https://webpack.js.org/configuration/resolve/
@@ -26,6 +30,7 @@ module.exports = {
     extensions: [".json", ".js", ".jsx"],
     modules: ["node_modules"]
   },
+  node: { fs: 'empty' },
   optimization: {
     minimizer: [
       new UglifyJsPlugin({

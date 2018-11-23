@@ -12,7 +12,7 @@ const onMapClickHandler = function() {
 
 export default {
   init: () => {
-    // console.log("mapEventHander.init")
+    console.log("mapEventHander.init")
     document
       .querySelector(".map")
       .addEventListener("click", onMapMouseleaveHandler);

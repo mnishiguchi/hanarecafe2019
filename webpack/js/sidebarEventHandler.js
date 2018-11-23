@@ -1,6 +1,6 @@
 export default {
   init: () => {
-    // console.log("sidebarEventHander.init");
+    console.log("sidebarEventHander.init");
     const toggleIcon = document.querySelector(".menu-toggle > svg-icon");
     document
       .querySelector(".menu-toggle")

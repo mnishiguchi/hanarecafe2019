@@ -1,5 +1,21 @@
 # hanarecafe
 
+## Get started
+
+start webpack dev server
+
+```
+yarn start
+```
+
+start jekyll dev server
+
+```
+yarn jekyll
+```
+
+view localhost:4000
+
 ## Thanks
 - [jekyll](https://github.com/jekyll/jekyll)
 - [bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
@@ -11,4 +27,5 @@
 - [webpack](https://webpack.js.org/)
 - [survivejs](https://survivejs.com/webpack)
 - [icomoon.io](https://icomoon.io/#docs/inline-svg)
+- https://www.netlify.com/
 - etc

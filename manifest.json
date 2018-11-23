@@ -1,0 +1,28 @@
+---
+layout: null
+sitemap: false
+lang: site.data.active_lang
+---
+
+{% assign i18n = site.data.i18n %}
+
+{
+    "name": "{{ i18n.title }}",
+    "short_name": "Hanare",
+    "icons": [
+        {
+            "src": "/assets/images/logo-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/logo-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "{{ site.theme_color }}",
+    "background_color": "{{ site.theme_color }}"
+}

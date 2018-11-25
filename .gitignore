@@ -22,3 +22,5 @@ _site
 # Folders to ignore
 node_modules
 .netlify
+/assets/*bundle.*
+/sw.js

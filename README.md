@@ -2,6 +2,8 @@
 
 ## Get started
 
+#### run the app in development
+
 start webpack dev server
 
 ```
@@ -15,6 +17,12 @@ yarn jekyll
 ```
 
 view localhost:4000
+
+#### build the app in production
+
+```
+node_modules/.bin/webpack --mode production && JEKYLL_ENV=production jekyll build
+```
 
 ## Thanks
 - [jekyll](https://github.com/jekyll/jekyll)

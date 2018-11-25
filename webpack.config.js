@@ -7,7 +7,6 @@ const ServiceWorkerWebpackPlugin = require("serviceworker-webpack-plugin");
 
 module.exports = {
   mode: "production",
-  watch: true,
   entry: {
     main: path.join(__dirname, "webpack", "main")
   },
@@ -30,7 +29,7 @@ module.exports = {
     extensions: [".json", ".js", ".jsx"],
     modules: ["node_modules"]
   },
-  node: { fs: 'empty' },
+  node: { fs: "empty" },
   optimization: {
     minimizer: [
       new UglifyJsPlugin({

@@ -21,7 +21,12 @@ lang: site.data.active_lang
             "type": "image/png"
         }
     ],
-    "start_url": "/",
+    "start_url":
+      {% if site.active_lang == 'ja'  %}
+        "/"
+      {% else %}
+        "/{{ site.active_lang }}/"
+      {% endif %},
     "display": "standalone",
     "theme_color": "{{ site.theme_color }}",
     "background_color": "{{ site.theme_color }}"

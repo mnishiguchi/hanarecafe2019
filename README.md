@@ -2,18 +2,18 @@
 
 ## Get started
 
+#### Install gems
+
+```
+bundle install
+```
+
 #### run the app in development
 
-start webpack dev server
+start webpack dev server and jekyll dev server
 
 ```
-yarn start
-```
-
-start jekyll dev server
-
-```
-yarn jekyll
+foreman start -f Procfile.dev
 ```
 
 view localhost:4000
